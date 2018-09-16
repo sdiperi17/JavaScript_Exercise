@@ -6,10 +6,9 @@ console.log("Before: ", pens);
 // PROPERTIES:
 // Get a property of an object by name:
 // console.log("Array length: ", pens.length);
-
 // METHODS:
 // Reverse the array:
-// pens.reverse();
+// penspee.reverse();
 
 // Remove the first value of the array:
 // pens.shift();
@@ -24,13 +23,13 @@ console.log("Before: ", pens);
 // pens.push("pink", "prussian blue");
 
 // Find the specified position (pos) and remove n number of items from the array. Arguments: pens.splice(pos,n):
-// pens.splice(pos, n) // Starts at the seccond item and removes two items.
+pens.splice(2, 1) // Starts at the seccond item and removes two items.
 
 // console.log("After: ", pens);
 
 // Create a copy of an array. Typically assigned to a new variable:
-// var newPens = pens.slice();
-// console.log("New pens: ", newPens);
+var newPens = pens.slice();
+console.log("New pens: ", newPens);
 
 // Return the first element that matches the search parameter after the specified index position. Defaults to index position 0. Arguments: pens.indexOf(search, index):
 // var result = pens.indexOf(search, index);
