@@ -1,6 +1,6 @@
 const MIN = 0;
-const MAX = 36;
-var testNumber = 15;
+const MAX = 10;
+var testNumber = 7;
 var i = 1;
 
 while (MAX) {
@@ -13,5 +13,13 @@ while (MAX) {
     console.log("Round " + i + ": " + randomValue);
     i++;
 }
+console.log(
+    "The script went " + i + " rounds before finding " + testNumber + "."
+);
 
-console.log("The script went " + i + " rounds before finding " + testNumber + ".");
+let math = {
+    add1: function(number) {
+        let answer = number + 1;
+        return answer;
+    }
+};
